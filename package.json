@@ -3,7 +3,7 @@
   "packageManager": "pnpm@7.0.0",
   "scripts": {
     "build": "vite build",
-    "dev": "vite --host 0.0.0.0 --port 3333",
+    "dev": "vite --host 0.0.0.0 --port 3388",
     "lint": "eslint .",
     "preview": "vite preview",
     "preview-https": "serve dist",
@@ -21,6 +21,7 @@
     "buffer": "^6.0.3",
     "element-plus": "^2.1.11",
     "elliptic": "^6.5.4",
+    "localforage": "^1.10.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.13",
     "prism-theme-vars": "^0.2.2",

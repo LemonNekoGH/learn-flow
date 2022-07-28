@@ -11,10 +11,13 @@
         <ElMenuItem index="/quick_start_no_wallet_provider">
           快速入门（绕过钱包供应商的版本）
         </ElMenuItem>
+        <ElMenuItem index="/transfer-kitty-items">
+          转移 KittyItems NFT
+        </ElMenuItem>
       </ElMenu>
     </ElAside>
     <ElContainer>
-      <ElHeader class="bg-[#fc7299] text-white h-4rem text-1.5rem flex items-center px-1rem">
+      <ElHeader class="flex bg-[#fc7299] h-4rem text-white px-1rem text-1.5rem items-center">
         柠喵的可交互 Flow 链学习笔记
       </ElHeader>
       <ElMain>

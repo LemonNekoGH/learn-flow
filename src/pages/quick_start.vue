@@ -12,7 +12,7 @@ const profileChangeStatus = ref<any>(null)
 
 const queryAddress = async () => {
   try {
-    const profile = await fcl.query({
+    const profile = await fcl.query({ 
       cadence: `
       import Profile from 0xProfile
 
