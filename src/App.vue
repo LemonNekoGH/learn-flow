@@ -14,6 +14,9 @@
         <ElMenuItem index="/transfer-kitty-items">
           转移 KittyItems NFT
         </ElMenuItem>
+        <ElMenuItem index="/destroy_selected_mono_cat">
+          销毁猫咪盲盒
+        </ElMenuItem>
       </ElMenu>
     </ElAside>
     <ElContainer>

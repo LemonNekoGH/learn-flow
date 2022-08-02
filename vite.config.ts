@@ -21,18 +21,6 @@ export default defineConfig({
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
 
-    // https://github.com/antfu/unplugin-vue-components
-    Components({
-      // allow auto load markdown components under `./src/components/`
-      extensions: ['vue'],
-      // allow auto import and register components used in markdown
-      include: [/\.vue$/, /\.vue\?vue/],
-      dts: 'src/components.d.ts',
-      resolvers: [
-        ElementPlusResolver(),
-      ],
-    }),
-
     // https://github.com/antfu/unocss
     // see unocss.config.ts for config
     Unocss(),
